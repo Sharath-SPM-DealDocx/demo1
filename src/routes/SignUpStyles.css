@@ -1,0 +1,66 @@
+.regForm{
+    margin-top: 150px;
+    margin-left:370px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 35px 20px;
+    background: #332a69;
+    height: 100vh;
+    width: 70vh;
+    margin-bottom: 35px;
+    object-fit: cover;
+}
+
+.regForm form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 80vh;
+    margin-left: 40px;
+    padding: 15px;
+    border: 2px solid grey;
+    border-radius: 7px;
+}
+
+.regForm input{
+    margin-bottom: 15px;
+    height: 40px;
+}
+
+
+.regForm label{
+    color: white;
+}
+
+.regForm button{
+    width: 50%;
+    color: black;
+    background: white;
+    margin-left: 57px;
+    border:1px solid goldenrod;
+}
+
+.regForm input:hover{
+    background: gray;
+    color: greenyellow;
+    border: 2px solid greenyellow;
+}
+
+.regForm button:hover{
+    background: black;
+    color: crimson;
+}
+
+@media screen and (max-width:850px) {
+    
+    .regForm{
+        height: 60vh;
+        width: 50vh;
+        background: gray;
+        color: orangered;
+        align-content: center;
+        align-items: center;
+        margin-left: 10px;
+    }
+}
